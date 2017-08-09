@@ -1,0 +1,125 @@
+body {
+	background: url("../images/contact.jpg") no-repeat;
+	font: 15px sans-serif;
+	line-height: 1.5;
+	color: #fff;
+}
+
+.page {
+	background-color: red;
+	max-width: 80%;
+	margin: auto;
+	margin-bottom: 100px;
+	margin-top: 100px;
+	box-sizing: border-box;
+	box-shadow: -2px -2px 40px 0 rgba(2,1,1,2);
+}
+
+.page-above, .page-below {
+	height: 290px;
+	padding: 5%;
+}
+
+/* Page Above */
+.page-above {
+	color: #000;
+	background-color: #fff;
+}
+
+.page-above-left, .page-above-right {
+	width: 50%;
+	float: left;
+	box-sizing: border-box;
+	padding-left: 8%;
+	padding-right: 8%;
+}
+
+.contact {
+	display: flex;
+	align-items: center;
+}
+
+.page-above-img, .page-below-img {
+	width: 20px;
+	height: 20px;
+	margin-right: 20px;
+}
+
+.page-above-right {
+	width: 40%;
+	box-shadow: -2px 1px 40px -20px rgba(0.5,0,0,.8);
+	position: relative;
+	bottom: -30px;
+	padding-left: 5%;
+	background-color: #fff;
+}
+
+input, textarea, button {
+	display: block;
+	margin-bottom: 10px; 
+	border:1px solid red;
+	padding: 10px;
+	width: 100%;
+	font: 12px sans-serif;
+}
+
+button {
+	background-color: red;
+	color: #fff;
+	width: 108.5%;
+	box-shadow: 2px 1px 10px 2px rgba(1,0,0,.3);
+}
+
+form {
+	padding-top: 15%;
+	padding-bottom: 15%;
+}
+
+/* Page Below */
+
+.page-below-h2, .page-below-left, .page-below-middle, .page-below-right, .page-footer{
+	padding-top: 30px;
+	padding-left: 8%;
+	width: 35%;
+}
+
+.page-below-h2 {
+	height: 20px;
+	width: 100%;
+}
+
+.page-below-h4 {
+	font-weight: bold;
+}
+
+.page-below-content{
+	display: flex;
+	flex-direction: row;
+	margin-top: -40px;
+}
+
+.page-below-right {
+	display: flex;
+	align-items: center;
+}
+
+.page-below-img {
+	height: 30px;
+	width: 30px;
+}
+
+.page-footer {
+	width: 87%;
+	font-weight: bolder;
+}
+
+.nav {
+	display: flex;
+	flex-direction: row;
+	list-style-type: none;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: relative;
+	left: -45px;
+}
+ 
